@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".FirstFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/search"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_grande"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginstart_cuadros2"
+        android:layout_marginTop="@dimen/margintop_cuadros2"
+        android:text="@string/generos"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/reggaeton"
+        android:layout_width="@dimen/width_cuadros"
+        android:layout_height="@dimen/height_cuadros"
+        android:layout_marginStart="@dimen/marginstart_cuadros1"
+        android:layout_marginTop="@dimen/margintop_cuadros1"
+        android:background="@drawable/cuadro_rojo"
+        app:layout_constraintEnd_toStartOf="@+id/Rock"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reggaeton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin_str_genders"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Rock"
+        android:layout_width="@dimen/width_cuadros"
+        android:layout_height="@dimen/height_cuadros"
+        android:layout_marginTop="@dimen/margintop_cuadros1"
+        android:layout_marginEnd="@dimen/marginstart_cuadros1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:background="@drawable/cuadro_gris"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rock"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin_str_genders"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pop"
+        android:layout_width="@dimen/width_cuadros"
+        android:layout_height="@dimen/height_cuadros"
+        android:layout_marginStart="@dimen/marginstart_cuadros2"
+        android:layout_marginTop="@dimen/margintop_cuadros2"
+        android:background="@drawable/cuadro_rosado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reggaeton">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_str_genders"
+            android:text="@string/pop"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/electro"
+        android:layout_width="@dimen/width_cuadros"
+        android:layout_height="@dimen/height_cuadros"
+        android:layout_marginTop="@dimen/margintop_cuadros2"
+        android:layout_marginEnd="@dimen/marginstart_cuadros2"
+        android:background="@drawable/cuadro_morado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reggaeton">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_str_genders"
+            android:text="@string/electro"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

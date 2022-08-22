@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_grande">30sp</dimen>
+    <dimen name="height_cuadros">90dp</dimen>
+    <dimen name="width_cuadros">160dp</dimen>
+    <dimen name="margintop_cuadros1">24dp</dimen>
+    <dimen name="marginstart_cuadros1">28dp</dimen>
+    <dimen name="margintop_cuadros2">32dp</dimen>
+    <dimen name="marginstart_cuadros2">28dp</dimen>
+    <dimen name="margin_str_genders">10dp</dimen>
+    <dimen name="margintop_likedsongs">85dp</dimen>
+    <dimen name="margintop_icons">32dp</dimen>
+    <dimen name="margintop_icons2">16dp</dimen>
+    <dimen name="width_height_user">45dp</dimen>
+    <dimen name="marginstart_user">16dp</dimen>
+    <dimen name="height_icons3">37dp</dimen>
+    <dimen name="width_icons3">33dp</dimen>
+    <dimen name="dimen_favs">75dp</dimen>
+    <dimen name="padding_favs">20dp</dimen>
+    <dimen name="margintop_constraint">12dp</dimen>
+    <dimen name="height_constraint">186dp</dimen>
+    <dimen name="width_constraint">409dp</dimen>
+</resources>
